@@ -1,0 +1,41 @@
+.grid {
+    font-family: 'Arimo', sans-serif;
+    border: black;
+    padding: 10px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 300px 700px;
+    grid-template-rows: 200px 500px;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center
+}
+
+p,
+h1 {
+    text-indent: 10px
+}
+
+.container-2 {
+    justify-content: center;
+    align-items: left;
+}
+
+.container-2,
+.container-3 {
+    color: #1f3731;
+    background-color: #ffb700;
+}
+
+.container-4 {
+    color: #ffb700;
+    background-color: #1f3731;
+}
+
+.container-2,
+.container-3,
+.container-4 {
+    padding: 10px;
+}
